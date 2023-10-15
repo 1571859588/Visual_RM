@@ -1,0 +1,4 @@
+source;share/learning_interfence/local_setup.bash
+source;share/learning_interfence/local_setup.dsv
+source;share/learning_interfence/local_setup.sh
+source;share/learning_interfence/local_setup.zsh

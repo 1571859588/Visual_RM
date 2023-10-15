@@ -1,0 +1,80 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f813dfdbd30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f813dfdbd30>>)
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.234s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/test'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/lt) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/lt) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/lt) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/lt) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/lt) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lt' with type 'ros.ament_cmake' and name 'lt'
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'lt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/test/build/lt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/test/install/lt', 'merge_install': False, 'path': '/home/lenck/RM/test/src/lt', 'symlink_install': False, 'test_result_base': None}
+[0.313s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.322s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'lt'
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/test/src/lt' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/test/src/lt'
+[0.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/test/build/lt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenck/RM/test/src/lt -DCMAKE_INSTALL_PREFIX=/home/lenck/RM/test/install/lt
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/test/build/lt' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenck/RM/test/src/lt -DCMAKE_INSTALL_PREFIX=/home/lenck/RM/test/install/lt
+[1.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lt)
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/test/install/lt' for CMake module files
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/test/install/lt' for CMake config files
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/test/install/lt/bin'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/test/install/lt/lib/pkgconfig/lt.pc'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/test/install/lt/lib/python3.10/site-packages'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/test/install/lt/bin'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/test/install/lt/share/lt/package.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/test/install/lt/share/lt/package.sh'
+[1.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/test/install/lt/share/colcon-core/packages/lt)
+[1.304s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'lt' finished with '1'
+[1.308s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[1.308s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[1.308s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.309s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/test/install/local_setup.sh'
+[1.322s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/test/install/_local_setup_util_sh.py'
+[1.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/test/install/setup.sh'

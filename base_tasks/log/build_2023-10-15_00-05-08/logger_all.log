@@ -1,0 +1,229 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb47b15bdf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb47b15bdf0>>)
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/base_tasks'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_interface) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_interface' with type 'ros.ament_cmake' and name 'learning_interface'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_py) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_py) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_py) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_py) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_py) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_py' with type 'ros.ament_python' and name 'learning_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_service) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_service' with type 'ros.ament_python' and name 'learning_service'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_topic) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_topic' with type 'ros.ament_python' and name 'learning_topic'
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'learning_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/build/learning_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/install/learning_interface', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/src/learning_interface', 'symlink_install': False, 'test_result_base': None}
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'learning_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'learning_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/build/learning_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/install/learning_py', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/src/learning_py', 'symlink_install': False, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'learning_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/build/learning_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/install/learning_service', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/src/learning_service', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'learning_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/build/learning_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/install/learning_topic', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/src/learning_topic', 'symlink_install': False, 'test_result_base': None}
+[0.378s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.388s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface'
+[0.388s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/base_tasks/src/learning_interface' with build type 'ament_cmake'
+[0.388s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/base_tasks/src/learning_interface'
+[0.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/install/learning_topic:/home/lenck/RM/base_tasks/install/learning_service:/home/lenck/RM/base_tasks/install/learning_py:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/build/learning_interface -- -j2 -l2
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/install/learning_topic:/home/lenck/RM/base_tasks/install/learning_service:/home/lenck/RM/base_tasks/install/learning_py:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/build/learning_interface -- -j2 -l2
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/build/learning_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/install/learning_topic:/home/lenck/RM/base_tasks/install/learning_service:/home/lenck/RM/base_tasks/install/learning_py:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/build/learning_interface
+[1.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[1.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/install/learning_topic:/home/lenck/RM/base_tasks/install/learning_service:/home/lenck/RM/base_tasks/install/learning_py:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/build/learning_interface
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface' for CMake config files
+[1.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/lib'
+[1.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/bin'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/lib/python3.10/site-packages'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/bin'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/package.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/package.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/install/learning_interface/share/colcon-core/packages/learning_interface)
+[1.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface' for CMake module files
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface' for CMake config files
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/lib'
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/bin'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/lib/python3.10/site-packages'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_interface/bin'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/package.dsv'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/install/learning_interface/share/learning_interface/package.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/install/learning_interface/share/colcon-core/packages/learning_interface)
+[1.238s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface' finished with '0'
+[1.238s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_py'
+[1.238s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lenck/RM/base_tasks/src/learning_py' with build type 'ament_python'
+[1.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_py', 'ament_prefix_path')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_py/share/learning_py/hook/ament_prefix_path.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_py/share/learning_py/hook/ament_prefix_path.sh'
+[1.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.504s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lenck/RM/base_tasks/src/learning_py'
+[1.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/src/learning_py': PYTHONPATH=/home/lenck/RM/base_tasks/build/learning_py/prefix_override:/home/lenck/RM/base_tasks/install/learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_py build --build-base /home/lenck/RM/base_tasks/build/learning_py/build install --record /home/lenck/RM/base_tasks/build/learning_py/install.log --single-version-externally-managed
+[2.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/src/learning_py' returned '0': PYTHONPATH=/home/lenck/RM/base_tasks/build/learning_py/prefix_override:/home/lenck/RM/base_tasks/install/learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_py build --build-base /home/lenck/RM/base_tasks/build/learning_py/build install --record /home/lenck/RM/base_tasks/build/learning_py/install.log --single-version-externally-managed
+[2.041s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_py' for CMake module files
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_py' for CMake config files
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_py/lib'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_py/bin'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_py/lib/pkgconfig/learning_py.pc'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_py/lib/python3.10/site-packages'
+[2.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_py', 'pythonpath')
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_py/share/learning_py/hook/pythonpath.dsv'
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_py/share/learning_py/hook/pythonpath.sh'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_py/bin'
+[2.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_py)
+[2.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/install/learning_py/share/learning_py/package.dsv'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/install/learning_py/share/learning_py/package.sh'
+[2.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/install/learning_py/share/colcon-core/packages/learning_py)
+[2.064s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_py' finished with '0'
+[2.064s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service'
+[2.064s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lenck/RM/base_tasks/src/learning_service' with build type 'ament_python'
+[2.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service', 'ament_prefix_path')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_service/share/learning_service/hook/ament_prefix_path.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_service/share/learning_service/hook/ament_prefix_path.sh'
+[2.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.353s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lenck/RM/base_tasks/src/learning_service'
+[2.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/src/learning_service': PYTHONPATH=/home/lenck/RM/base_tasks/build/learning_service/prefix_override:/home/lenck/RM/base_tasks/install/learning_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/lenck/RM/base_tasks/build/learning_service/build install --record /home/lenck/RM/base_tasks/build/learning_service/install.log --single-version-externally-managed
+[2.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/src/learning_service' returned '0': PYTHONPATH=/home/lenck/RM/base_tasks/build/learning_service/prefix_override:/home/lenck/RM/base_tasks/install/learning_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/lenck/RM/base_tasks/build/learning_service/build install --record /home/lenck/RM/base_tasks/build/learning_service/install.log --single-version-externally-managed
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_service' for CMake module files
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_service' for CMake config files
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_service/lib'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_service/bin'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_service/lib/pkgconfig/learning_service.pc'
+[2.961s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_service/lib/python3.10/site-packages'
+[2.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service', 'pythonpath')
+[2.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_service/share/learning_service/hook/pythonpath.dsv'
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_service/share/learning_service/hook/pythonpath.sh'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_service/bin'
+[2.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_service)
+[2.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/install/learning_service/share/learning_service/package.dsv'
+[2.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/install/learning_service/share/learning_service/package.sh'
+[2.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/install/learning_service/share/colcon-core/packages/learning_service)
+[2.994s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service' finished with '0'
+[2.994s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic'
+[2.994s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lenck/RM/base_tasks/src/learning_topic' with build type 'ament_python'
+[2.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic', 'ament_prefix_path')
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_topic/share/learning_topic/hook/ament_prefix_path.dsv'
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_topic/share/learning_topic/hook/ament_prefix_path.sh'
+[3.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.252s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lenck/RM/base_tasks/src/learning_topic'
+[3.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/src/learning_topic': PYTHONPATH=/home/lenck/RM/base_tasks/build/learning_topic/prefix_override:/home/lenck/RM/base_tasks/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_topic build --build-base /home/lenck/RM/base_tasks/build/learning_topic/build install --record /home/lenck/RM/base_tasks/build/learning_topic/install.log --single-version-externally-managed
+[3.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/src/learning_topic' returned '0': PYTHONPATH=/home/lenck/RM/base_tasks/build/learning_topic/prefix_override:/home/lenck/RM/base_tasks/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_topic build --build-base /home/lenck/RM/base_tasks/build/learning_topic/build install --record /home/lenck/RM/base_tasks/build/learning_topic/install.log --single-version-externally-managed
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_topic' for CMake module files
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_topic' for CMake config files
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_topic/lib'
+[3.807s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_topic/bin'
+[3.807s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_topic/lib/pkgconfig/learning_topic.pc'
+[3.807s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_topic/lib/python3.10/site-packages'
+[3.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic', 'pythonpath')
+[3.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/install/learning_topic/share/learning_topic/hook/pythonpath.dsv'
+[3.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/install/learning_topic/share/learning_topic/hook/pythonpath.sh'
+[3.816s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/install/learning_topic/bin'
+[3.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_topic)
+[3.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/install/learning_topic/share/learning_topic/package.dsv'
+[3.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/install/learning_topic/share/learning_topic/package.sh'
+[3.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/install/learning_topic/share/colcon-core/packages/learning_topic)
+[3.828s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic' finished with '0'
+[3.828s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[3.828s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[3.829s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.829s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/base_tasks/install/local_setup.sh'
+[3.838s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/base_tasks/install/_local_setup_util_sh.py'
+[3.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/base_tasks/install/setup.sh'

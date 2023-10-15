@@ -1,0 +1,7 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "cmake.sourceDirectory": "/home/lenck/RM/base_tasks/build/learning_interface/learning_interface__py"
+}

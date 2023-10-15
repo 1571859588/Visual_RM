@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a9b0ab45625f8d5a71b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "lt__py",
+					"jsonFile" : "directory-lt__py-Debug-c1873e8a5519677d109e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lenck/RM/test/build/lt__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lt_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lt_egg-Debug-9406da47d90a80280542.json",
+					"name" : "ament_cmake_python_build_lt_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lt-Debug-ef3d83ab1c9b3c5ce957.json",
+					"name" : "ament_cmake_python_copy_lt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt-Debug-e5a8da07b3e29eadd9ab.json",
+					"name" : "lt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__cpp-Debug-9ce1d599b71c82611696.json",
+					"name" : "lt__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lt__py::@a71479bd0e5395aba9ca",
+					"jsonFile" : "target-lt__py-Debug-5ab3ead4212252afdc8e.json",
+					"name" : "lt__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_generator_c-Debug-e8e21414ddfc4d5bbc58.json",
+					"name" : "lt__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_generator_py-Debug-26aad2a1d06411a16bf0.json",
+					"name" : "lt__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_c-Debug-cabc1e3188506bc5817d.json",
+					"name" : "lt__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_c__pyext-Debug-16c58f16d69194a9ac21.json",
+					"name" : "lt__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_cpp-Debug-873118b2dabec7631f84.json",
+					"name" : "lt__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_fastrtps_c-Debug-a4025e17ca2fba5a01dc.json",
+					"name" : "lt__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_fastrtps_c__pyext-Debug-5615a6f2184acf75027b.json",
+					"name" : "lt__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_fastrtps_cpp-Debug-dfcb028b5332516452c8.json",
+					"name" : "lt__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_introspection_c-Debug-dbc72875d751359144f9.json",
+					"name" : "lt__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_introspection_c__pyext-Debug-f0a5e4ab19d077905794.json",
+					"name" : "lt__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt__rosidl_typesupport_introspection_cpp-Debug-a3b5dcea6952788e7973.json",
+					"name" : "lt__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lt_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lt_uninstall-Debug-44a03118bbd3a171f8f0.json",
+					"name" : "lt_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-63343fc41ef1a09af64f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lenck/RM/test/build",
+		"source" : "/home/lenck/RM/test/src/lt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

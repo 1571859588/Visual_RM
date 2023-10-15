@@ -1,0 +1,6 @@
+{
+  "package_name": "learning_interface",
+  "non_idl_tuples": [
+    "/home/lenck/RM/base_tasks/src/learning_interface:srv/AddTwoInts.srv"
+  ]
+}

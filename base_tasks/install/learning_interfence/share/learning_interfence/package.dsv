@@ -1,0 +1,6 @@
+source;share/learning_interfence/hook/cmake_prefix_path.dsv
+source;share/learning_interfence/hook/cmake_prefix_path.sh
+source;share/learning_interfence/hook/ld_library_path_lib.dsv
+source;share/learning_interfence/hook/ld_library_path_lib.sh
+source;share/learning_interfence/local_setup.dsv
+source;share/learning_interfence/local_setup.sh

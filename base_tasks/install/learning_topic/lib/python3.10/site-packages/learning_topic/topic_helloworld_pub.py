@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
+
 class PublishNode(Node):
     def __init__(self,name):
         super().__init__(name)
