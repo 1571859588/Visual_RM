@@ -1,0 +1,54 @@
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+#include "chrono"
+
+
+class TopicPublisher01 : public rclcpp::Node
+{
+public:
+    // 构造函数,有一个参数为节点名称
+    TopicPublisher01(std::string name) : Node(name)
+    {
+        RCLCPP_INFO(this->get_logger(), "大家好，我是%s.", name.c_str());
+        // 创建发布者
+        command_publisher_ = this->create_publisher<std_msgs::msg::String>("current_time", 10);
+
+        rclcpp::WallRate loop_rate(1);
+
+        // 创建定时器，500ms为周期，定时发布
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&TopicPublisher01::timer_callback, this));
+    }
+
+private:
+    void timer_callback()
+    {
+        // 创建消息
+        std_msgs::msg::String message;
+        auto now=std::chrono::system_clock::now();
+        auto now_str=std::chrono::system_clock::to_time_t(now);
+        message.data = ctime(&now_str);
+        // 日志打印
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        // 发布消息
+        command_publisher_->publish(message);
+        
+    }
+    // 声名定时器指针
+    rclcpp::TimerBase::SharedPtr timer_;
+    // 声明话题发布者指针
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr command_publisher_;
+};
+
+
+int main(int argc, char **argv)
+{
+    /* 初始化rclcpp  */
+    rclcpp::init(argc, argv);
+    /*产生一个node_01的节点*/
+    auto node = std::make_shared<TopicPublisher01>("pub");
+    /* 运行节点，并检测退出信号 Ctrl+C*/
+    rclcpp::spin(node);
+    /* 停止运行 */
+    rclcpp::shutdown();
+    return 0;
+}

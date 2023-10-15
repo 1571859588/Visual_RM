@@ -1,4 +1,0 @@
-[console_scripts]
-node_helloworld = learning_py.node_helloworld:main
-node_helloworld_class = learning_py.node_helloworld_class:main
-

@@ -1,4 +1,0 @@
-source;share/learning_interfence/environment/ament_prefix_path.sh
-source;share/learning_interfence/environment/library_path.sh
-source;share/learning_interfence/environment/path.sh
-source;share/learning_interfence/environment/pythonpath.sh

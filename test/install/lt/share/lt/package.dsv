@@ -1,6 +1,0 @@
-source;share/lt/hook/cmake_prefix_path.dsv
-source;share/lt/hook/cmake_prefix_path.sh
-source;share/lt/hook/ld_library_path_lib.dsv
-source;share/lt/hook/ld_library_path_lib.sh
-source;share/lt/local_setup.dsv
-source;share/lt/local_setup.sh

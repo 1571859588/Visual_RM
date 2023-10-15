@@ -1,8 +1,0 @@
-setup.py
-learning_interfence/__init__.py
-learning_interfence.egg-info/PKG-INFO
-learning_interfence.egg-info/SOURCES.txt
-learning_interfence.egg-info/dependency_links.txt
-learning_interfence.egg-info/top_level.txt
-learning_interfence/srv/__init__.py
-learning_interfence/srv/_add_two_ints.py

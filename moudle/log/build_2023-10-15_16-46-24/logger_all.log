@@ -1,0 +1,102 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9083fdbc10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9083fdbc10>>)
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/base_tasks/work3'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_work) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_work) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_work) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_work) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/time_work) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/time_work' with type 'ros.ament_cmake' and name 'time_work'
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'time_work' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'time_work' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/work3/build/time_work', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/work3/install/time_work', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/work3/src/time_work', 'symlink_install': False, 'test_result_base': None}
+[0.316s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.325s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'time_work'
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/base_tasks/work3/src/time_work' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/base_tasks/work3/src/time_work'
+[0.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/time_work': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenck/RM/base_tasks/work3/src/time_work -DCMAKE_INSTALL_PREFIX=/home/lenck/RM/base_tasks/work3/install/time_work
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/time_work' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenck/RM/base_tasks/work3/src/time_work -DCMAKE_INSTALL_PREFIX=/home/lenck/RM/base_tasks/work3/install/time_work
+[0.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/time_work': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work3/build/time_work -- -j2 -l2
+[4.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/time_work' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work3/build/time_work -- -j2 -l2
+[4.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/time_work': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work3/build/time_work
+[4.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_work)
+[4.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/time_work' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work3/build/time_work
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work' for CMake module files
+[4.269s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work' for CMake config files
+[4.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_work', 'cmake_prefix_path')
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/hook/cmake_prefix_path.dsv'
+[4.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/hook/cmake_prefix_path.sh'
+[4.292s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/lib'
+[4.292s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/bin'
+[4.292s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/lib/pkgconfig/time_work.pc'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/lib/python3.10/site-packages'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/bin'
+[4.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/package.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/package.sh'
+[4.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work3/install/time_work/share/colcon-core/packages/time_work)
+[4.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_work)
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work' for CMake module files
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work' for CMake config files
+[4.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_work', 'cmake_prefix_path')
+[4.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/hook/cmake_prefix_path.dsv'
+[4.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/hook/cmake_prefix_path.sh'
+[4.372s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/lib'
+[4.372s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/bin'
+[4.372s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/lib/pkgconfig/time_work.pc'
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/lib/python3.10/site-packages'
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/time_work/bin'
+[4.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/package.dsv'
+[4.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work3/install/time_work/share/time_work/package.sh'
+[4.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work3/install/time_work/share/colcon-core/packages/time_work)
+[4.383s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'time_work' finished with '0'
+[4.383s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[4.383s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[4.383s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.383s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/base_tasks/work3/install/local_setup.sh'
+[4.392s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/base_tasks/work3/install/_local_setup_util_sh.py'
+[4.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/base_tasks/work3/install/setup.sh'

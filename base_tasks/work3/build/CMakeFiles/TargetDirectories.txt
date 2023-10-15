@@ -1,0 +1,11 @@
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/uninstall.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/example_cpp_uninstall.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/node_01.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/pub.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/test.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/edit_cache.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/rebuild_cache.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/list_install_components.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/install.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/install/local.dir
+/home/lenck/RM/base_tasks/work3/build/CMakeFiles/install/strip.dir

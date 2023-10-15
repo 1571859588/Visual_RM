@@ -1,4 +1,0 @@
-[console_scripts]
-adder_client = learning_service.adder_client:main
-adder_server = learning_service.adder_server:main
-

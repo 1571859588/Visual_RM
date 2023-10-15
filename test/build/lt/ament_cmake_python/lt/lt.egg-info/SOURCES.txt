@@ -1,8 +1,0 @@
-setup.py
-lt/__init__.py
-lt.egg-info/PKG-INFO
-lt.egg-info/SOURCES.txt
-lt.egg-info/dependency_links.txt
-lt.egg-info/top_level.txt
-lt/srv/__init__.py
-lt/srv/_addtwo.py

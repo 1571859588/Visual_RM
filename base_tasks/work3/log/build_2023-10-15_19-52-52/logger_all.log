@@ -1,0 +1,155 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.107s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f96257e3d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f96257e3d30>>)
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.255s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/base_tasks/work3'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_cpp) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_cpp) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_cpp) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_cpp) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_cpp' with type 'ros.ament_cmake' and name 'example_cpp'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_work) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_work) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_work) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_work) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_work) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_work' with type 'ros.ament_cmake' and name 'my_work'
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'example_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/work3/build/example_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/work3/install/example_cpp', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/work3/src/example_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'my_work' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'my_work' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/work3/build/my_work', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/work3/install/my_work', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/work3/src/my_work', 'symlink_install': False, 'test_result_base': None}
+[0.347s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.356s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'example_cpp'
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/base_tasks/work3/src/example_cpp' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/base_tasks/work3/src/example_cpp'
+[0.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work3/build/example_cpp -- -j4 -l4
+[1.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work3/build/example_cpp -- -j4 -l4
+[1.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work3/build/example_cpp
+[1.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_cpp)
+[1.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work3/build/example_cpp
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp' for CMake module files
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp' for CMake config files
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_cpp', 'cmake_prefix_path')
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.sh'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/lib'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/bin'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/lib/pkgconfig/example_cpp.pc'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/lib/python3.10/site-packages'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/bin'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/package.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/package.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work3/install/example_cpp/share/colcon-core/packages/example_cpp)
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_cpp)
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp' for CMake module files
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp' for CMake config files
+[1.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_cpp', 'cmake_prefix_path')
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.sh'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/lib'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/lib/pkgconfig/example_cpp.pc'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/lib/python3.10/site-packages'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/example_cpp/bin'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/package.dsv'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work3/install/example_cpp/share/example_cpp/package.sh'
+[1.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work3/install/example_cpp/share/colcon-core/packages/example_cpp)
+[1.233s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'example_cpp' finished with '0'
+[1.233s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'my_work'
+[1.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/base_tasks/work3/src/my_work' with build type 'ament_cmake'
+[1.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/base_tasks/work3/src/my_work'
+[1.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/my_work': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenck/RM/base_tasks/work3/src/my_work -DCMAKE_INSTALL_PREFIX=/home/lenck/RM/base_tasks/work3/install/my_work
+[1.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/my_work' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lenck/RM/base_tasks/work3/src/my_work -DCMAKE_INSTALL_PREFIX=/home/lenck/RM/base_tasks/work3/install/my_work
+[1.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/my_work': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work3/build/my_work -- -j4 -l4
+[5.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/my_work' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work3/build/my_work -- -j4 -l4
+[5.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work3/build/my_work': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work3/build/my_work
+[5.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_work)
+[5.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work3/build/my_work' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work3/build/my_work
+[5.225s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work' for CMake module files
+[5.225s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work' for CMake config files
+[5.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_work', 'cmake_prefix_path')
+[5.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/hook/cmake_prefix_path.dsv'
+[5.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/hook/cmake_prefix_path.sh'
+[5.234s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/lib'
+[5.235s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/bin'
+[5.235s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/lib/pkgconfig/my_work.pc'
+[5.235s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/lib/python3.10/site-packages'
+[5.235s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/bin'
+[5.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/package.dsv'
+[5.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/package.sh'
+[5.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work3/install/my_work/share/colcon-core/packages/my_work)
+[5.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_work)
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work' for CMake module files
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work' for CMake config files
+[5.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_work', 'cmake_prefix_path')
+[5.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/hook/cmake_prefix_path.dsv'
+[5.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/hook/cmake_prefix_path.sh'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/lib'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/bin'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/lib/pkgconfig/my_work.pc'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/lib/python3.10/site-packages'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work3/install/my_work/bin'
+[5.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/package.dsv'
+[5.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work3/install/my_work/share/my_work/package.sh'
+[5.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work3/install/my_work/share/colcon-core/packages/my_work)
+[5.319s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'my_work' finished with '0'
+[5.319s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[5.320s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[5.320s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.320s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/base_tasks/work3/install/local_setup.sh'
+[5.331s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/base_tasks/work3/install/_local_setup_util_sh.py'
+[5.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/base_tasks/work3/install/setup.sh'
