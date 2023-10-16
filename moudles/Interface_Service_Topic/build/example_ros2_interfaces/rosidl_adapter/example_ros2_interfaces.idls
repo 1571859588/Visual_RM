@@ -1,0 +1,3 @@
+/home/lenck/RM/moudles/Interface_Service_Topic/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotPose.idl
+/home/lenck/RM/moudles/Interface_Service_Topic/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:msg/RobotStatus.idl
+/home/lenck/RM/moudles/Interface_Service_Topic/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces:srv/MoveRobot.idl

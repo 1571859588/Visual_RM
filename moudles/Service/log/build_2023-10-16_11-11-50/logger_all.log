@@ -1,0 +1,100 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8f44d5fbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8f44d5fbe0>>)
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.272s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/moudles/Service'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_service_rclcpp' with type 'ros.ament_cmake' and name 'example_service_rclcpp'
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'example_service_rclcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/moudles/Service/build/example_service_rclcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/moudles/Service/install/example_service_rclcpp', 'merge_install': False, 'path': '/home/lenck/RM/moudles/Service/src/example_service_rclcpp', 'symlink_install': False, 'test_result_base': None}
+[0.358s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.368s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'example_service_rclcpp'
+[0.368s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/moudles/Service/src/example_service_rclcpp' with build type 'ament_cmake'
+[0.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/moudles/Service/src/example_service_rclcpp'
+[0.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/moudles/Service/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/moudles/Service/build/example_service_rclcpp -- -j4 -l4
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/moudles/Service/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/moudles/Service/build/example_service_rclcpp -- -j4 -l4
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/moudles/Service/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/moudles/Service/build/example_service_rclcpp
+[0.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_service_rclcpp)
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/moudles/Service/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/moudles/Service/build/example_service_rclcpp
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp' for CMake module files
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp' for CMake config files
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclcpp', 'cmake_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.sh'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/lib'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/bin'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/lib/pkgconfig/example_service_rclcpp.pc'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/lib/python3.10/site-packages'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/bin'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/package.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/colcon-core/packages/example_service_rclcpp)
+[0.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_service_rclcpp)
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp' for CMake module files
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp' for CMake config files
+[0.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclcpp', 'cmake_prefix_path')
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.sh'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/lib'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/bin'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/lib/pkgconfig/example_service_rclcpp.pc'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/lib/python3.10/site-packages'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/bin'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/example_service_rclcpp/package.sh'
+[0.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/moudles/Service/install/example_service_rclcpp/share/colcon-core/packages/example_service_rclcpp)
+[0.691s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'example_service_rclcpp' finished with '0'
+[0.691s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[0.691s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[0.691s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.692s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.700s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/moudles/Service/install/local_setup.sh'
+[0.701s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/moudles/Service/install/_local_setup_util_sh.py'
+[0.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/moudles/Service/install/setup.sh'
