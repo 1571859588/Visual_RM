@@ -33,8 +33,15 @@ Server and client communicate with the same service. The service message is two-
 
 ## Interface_Service_Topic
 
-Use service and msg interface. ---example_ros2_interfaces
-Control the robot to move. 
+Use service and msg interface.                            ---example_ros2_interfaces
+Control the robot to move back and forth in one direction. 
 
 The server is coded in example_interfaces_control_01.cpp  ---example_interfaces_rclcpp
 The client is coded in example_interfaces_robot_01.cpp    ---example_interfaces_rclcpp
+
+
+## Param_communicate
+
+This directory shows how to control the level of logger_info with parameter.
+
+
