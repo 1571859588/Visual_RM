@@ -44,4 +44,9 @@ The client is coded in example_interfaces_robot_01.cpp    ---example_interfaces_
 
 This directory shows how to control the level of logger_info with parameter.
 
+## Action
+
+Use the action_communication to control the robot move to the target_position, which robot will send feedback during the process.
+
+
 
