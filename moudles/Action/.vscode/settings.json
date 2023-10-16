@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/lenck/RM/moudles/Action/src/robot_control_interfaces",
+    "files.associations": {
+        "cmath": "cpp",
+        "complex": "cpp"
+    }
+}
