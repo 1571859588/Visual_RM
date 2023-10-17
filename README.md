@@ -48,5 +48,9 @@ This directory shows how to control the level of logger_info with parameter.
 
 Use the action_communication to control the robot move to the target_position, which robot will send feedback during the process.
 
+## RVIZ2_URDF_py
+
+I use the Gazebo to simulate a robot , who can show in Gazebo. However , it failed when I use the launch_py to one-step run and show in the Gazebo, which I had follow the fishros and it stop at [here](https://fishros.com/d2lros2/#/humble/chapt9/get_started/3.%E5%9C%A8Gazebo%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A8%A1%E5%9E%8B). I have to stop my work and look for the error. 
+
 
 
