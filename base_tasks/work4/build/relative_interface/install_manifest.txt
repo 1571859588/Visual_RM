@@ -1,0 +1,15 @@
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/ament_index/resource_index/package_run_dependencies/relative_interface
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/ament_index/resource_index/parent_prefix_path/relative_interface
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/environment/ament_prefix_path.sh
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/environment/ament_prefix_path.dsv
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/environment/path.sh
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/environment/path.dsv
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/local_setup.bash
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/local_setup.sh
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/local_setup.zsh
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/local_setup.dsv
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/package.dsv
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/ament_index/resource_index/packages/relative_interface
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/cmake/relative_interfaceConfig.cmake
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/cmake/relative_interfaceConfig-version.cmake
+/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/package.xml

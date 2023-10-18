@@ -1,0 +1,11 @@
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/uninstall.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/server.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/client.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/test.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/edit_cache.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/list_install_components.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/install.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/install/local.dir
+/home/lenck/RM/base_tasks/work5/build/cpp_srvcli/CMakeFiles/install/strip.dir

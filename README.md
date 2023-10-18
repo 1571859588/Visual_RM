@@ -39,6 +39,83 @@ Control the robot to move back and forth in one direction.
 The server is coded in example_interfaces_control_01.cpp  ---example_interfaces_rclcpp
 The client is coded in example_interfaces_robot_01.cpp    ---example_interfaces_rclcpp
 
+## Service_AddTwoInts
+
+For example, in work place the cpp_srvcli package is as follows:
+```
+cpp_srvcli/
+├── CMakeLists.txt
+├── include
+│   └── cpp_srvcli
+├── package.xml
+└── src
+    ├── add_two_ints_client.cpp
+    └── add_two_ints_server.cpp
+```
+The interface package is as follows:
+```
+example_interfaces/
+├── CMakeLists.txt
+├── include
+│   └── example_interfaces
+├── package.xml
+├── src
+└── srv
+    └── AddTwoInts.srv
+
+```
+### CLI package
+In c++, the cpp_srvcli package should add following content:
+
+In cpp_srvcli/CMakeLists.txt:
+```
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
+
+add_executable(server src/add_two_ints_server.cpp)
+ament_target_dependencies(server rclcpp example_interfaces)
+
+add_executable(client src/add_two_ints_client.cpp)
+ament_target_dependencies(client rclcpp example_interfaces)
+
+install(TARGETS
+  server
+  client
+  DESTINATION lib/${PROJECT_NAME})
+
+```
+
+In cpp/package.xml:
+```
+<depend>rclcpp</depend>
+<depend>example_interfaces</depend>
+```
+
+In src/*server.cpp or src/*client.cpp:
+```
+#include "rclcpp/rclcpp.hpp"
+#include "example_interfaces/srv/add_two_ints.hpp"
+```
+
+### interface package
+The interface package should add following content:
+
+In example_interfaces/CMakeLists.txt:
+```
+find_package(rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces(${PROJECT_NAME}
+"srv/AddTwoInts.srv"
+)
+```
+In example_interfaces/package.xml:
+```
+<build_depend>rosidl_default_generators</build_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+
 
 ## Param_communicate
 

@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/lenck/RM/base_tasks/work5/src/cpp_srvcli",
+    "files.associations": {
+        "chrono": "cpp",
+        "memory": "cpp"
+    }
+}

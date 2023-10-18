@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libcoordinate__rosidl_generator_c.so -o libcoordinate__rosidl_generator_c.so CMakeFiles/coordinate__rosidl_generator_c.dir/rosidl_generator_c/coordinate/srv/detail/relate__functions.c.o  -Wl,-rpath,/opt/ros/humble/lib: /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcutils.so -ldl 
