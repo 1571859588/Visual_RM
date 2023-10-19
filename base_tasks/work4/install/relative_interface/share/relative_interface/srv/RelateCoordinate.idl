@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from relative_interface/srv/RelateCoordinate.srv
+// generated code does not contain a copyright notice
+
+
+module relative_interface {
+  module srv {
+    struct RelateCoordinate_Request {
+      @verbatim (language="comment", text=
+        "offset radians")
+      double offset_theta;
+
+      double offset_x;
+
+      double offset_y;
+
+      double x;
+
+      double y;
+    };
+    struct RelateCoordinate_Response {
+      double x;
+
+      double y;
+    };
+  };
+};

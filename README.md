@@ -2,7 +2,7 @@
 
 
 # Base_Tasks
-Now I am working for the Base_Task, and I have done the work1 to work3. 
+Now I am working for the Base_Task, and I have done the work1 to work4. 
 
 
 # Work and details
@@ -13,9 +13,20 @@ Every directory means work details.
  
 Work1 : Looking for the commit message of "luogu end!" to see the details.
 
-Work2: The github pushed is the work2.
+Work2 : The github pushed is the work2.
 
 Work3 : Looking for the commit message of "work3 have done setup a SubAndPub moudle" to see the details.
+
+Work4 : refer to [here](https://fishros.com/d2lros2/#/humble/chapt6/get_started/5.%E9%BD%90%E6%AC%A1%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2)  the 2D transfer format is as follow:
+```
+double theta=request->offset_theta;// 两坐标系的相对偏移量 ，以逆时针方向为正
+double offset_x=request->offset_x; // 两坐标系的相对x坐标
+double offset_y=request->offset_y; // 两坐标系的相对y坐标
+double x=request->x; // 一点在一个坐标系上的x坐标
+double y=request->y; // 一点在一个坐标系上的y坐标
+response->x = x*std::cos(theta)-y*std::sin(theta)+offset_x;
+response->y = x*std::sin(theta)+y*std::cos(theta)+offset_y; 
+```
 
 
 # Moudles

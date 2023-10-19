@@ -1,0 +1,4 @@
+source;share/transfer_coordinate/hook/cmake_prefix_path.dsv
+source;share/transfer_coordinate/hook/cmake_prefix_path.sh
+source;share/transfer_coordinate/local_setup.dsv
+source;share/transfer_coordinate/local_setup.sh

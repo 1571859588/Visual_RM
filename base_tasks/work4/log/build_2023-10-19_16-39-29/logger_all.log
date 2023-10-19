@@ -1,0 +1,139 @@
+[0.248s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.248s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe9af7f3f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe9af7f3f10>>)
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.522s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/base_tasks/work4'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/relative_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/relative_interface) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/relative_interface) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/relative_interface) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/relative_interface) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relative_interface' with type 'ros.ament_cmake' and name 'relative_interface'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/transfer_coordinate) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/transfer_coordinate) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/transfer_coordinate) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/transfer_coordinate) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/transfer_coordinate) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transfer_coordinate' with type 'ros.ament_cmake' and name 'transfer_coordinate'
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'cmake_args' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'cmake_target' from command line to 'None'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.635s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'relative_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] DEBUG:colcon.colcon_core.verb:Building package 'relative_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/work4/build/relative_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/work4/install/relative_interface', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/work4/src/relative_interface', 'symlink_install': False, 'test_result_base': None}
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'cmake_target' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'cmake_clean_first' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'cmake_force_configure' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'ament_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'transfer_coordinate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.645s] DEBUG:colcon.colcon_core.verb:Building package 'transfer_coordinate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/work4/build/transfer_coordinate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/work4/src/transfer_coordinate', 'symlink_install': False, 'test_result_base': None}
+[0.654s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.663s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'relative_interface'
+[0.664s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/base_tasks/work4/src/relative_interface' with build type 'ament_cmake'
+[0.664s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/base_tasks/work4/src/relative_interface'
+[0.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work4/build/relative_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work4/build/relative_interface -- -j4 -l4
+[6.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work4/build/relative_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work4/build/relative_interface -- -j4 -l4
+[6.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work4/build/relative_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work4/build/relative_interface
+[6.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relative_interface)
+[6.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work4/build/relative_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work4/build/relative_interface
+[6.728s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface' for CMake module files
+[6.730s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface' for CMake config files
+[6.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('relative_interface', 'cmake_prefix_path')
+[6.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/cmake_prefix_path.dsv'
+[6.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/cmake_prefix_path.sh'
+[6.743s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/lib'
+[6.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('relative_interface', 'ld_library_path_lib')
+[6.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/ld_library_path_lib.dsv'
+[6.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/ld_library_path_lib.sh'
+[6.763s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/bin'
+[6.765s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/lib/pkgconfig/relative_interface.pc'
+[6.768s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/lib/python3.10/site-packages'
+[6.769s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/bin'
+[6.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/package.dsv'
+[6.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/package.sh'
+[6.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work4/install/relative_interface/share/colcon-core/packages/relative_interface)
+[6.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relative_interface)
+[6.896s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface' for CMake module files
+[6.899s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface' for CMake config files
+[6.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('relative_interface', 'cmake_prefix_path')
+[6.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/cmake_prefix_path.dsv'
+[6.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/cmake_prefix_path.sh'
+[6.914s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/lib'
+[6.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('relative_interface', 'ld_library_path_lib')
+[6.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/ld_library_path_lib.dsv'
+[6.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/hook/ld_library_path_lib.sh'
+[6.926s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/bin'
+[6.926s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/lib/pkgconfig/relative_interface.pc'
+[6.926s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/lib/python3.10/site-packages'
+[6.926s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/relative_interface/bin'
+[6.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/package.dsv'
+[6.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work4/install/relative_interface/share/relative_interface/package.sh'
+[6.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work4/install/relative_interface/share/colcon-core/packages/relative_interface)
+[6.944s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'relative_interface' finished with '0'
+[6.944s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'transfer_coordinate'
+[6.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/base_tasks/work4/src/transfer_coordinate' with build type 'ament_cmake'
+[6.945s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/base_tasks/work4/src/transfer_coordinate'
+[6.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work4/build/transfer_coordinate': AMENT_PREFIX_PATH=/home/lenck/RM/base_tasks/work4/install/relative_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenck/RM/base_tasks/work4/install/relative_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lenck/RM/base_tasks/work4/install/relative_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lenck/RM/base_tasks/work4/install/relative_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lenck/RM/base_tasks/work4/build/transfer_coordinate -- -j4 -l4
+[12.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work4/build/transfer_coordinate' returned '2': AMENT_PREFIX_PATH=/home/lenck/RM/base_tasks/work4/install/relative_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lenck/RM/base_tasks/work4/install/relative_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lenck/RM/base_tasks/work4/install/relative_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lenck/RM/base_tasks/work4/install/relative_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lenck/RM/base_tasks/work4/build/transfer_coordinate -- -j4 -l4
+[12.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(transfer_coordinate)
+[12.526s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate' for CMake module files
+[12.526s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate' for CMake config files
+[12.527s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/bin'
+[12.527s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/lib/pkgconfig/transfer_coordinate.pc'
+[12.527s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/lib/python3.10/site-packages'
+[12.527s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/bin'
+[12.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/package.dsv'
+[12.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/package.sh'
+[12.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/colcon-core/packages/transfer_coordinate)
+[12.543s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'transfer_coordinate' finished with '2'
+[12.544s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[12.544s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[12.544s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.545s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/base_tasks/work4/install/local_setup.sh'
+[12.558s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/base_tasks/work4/install/_local_setup_util_sh.py'
+[12.559s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/base_tasks/work4/install/setup.sh'

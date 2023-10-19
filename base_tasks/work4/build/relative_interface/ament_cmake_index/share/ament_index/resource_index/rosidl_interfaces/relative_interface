@@ -1,0 +1,4 @@
+srv/RelateCoordinate.idl
+srv/RelateCoordinate.srv
+srv/RelateCoordinate_Request.msg
+srv/RelateCoordinate_Response.msg

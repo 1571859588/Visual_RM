@@ -1,0 +1,4 @@
+source;share/transfer_coordinate/local_setup.bash
+source;share/transfer_coordinate/local_setup.dsv
+source;share/transfer_coordinate/local_setup.sh
+source;share/transfer_coordinate/local_setup.zsh

@@ -1,6 +1,0 @@
-setup.py
-coordinate/__init__.py
-coordinate.egg-info/PKG-INFO
-coordinate.egg-info/SOURCES.txt
-coordinate.egg-info/dependency_links.txt
-coordinate.egg-info/top_level.txt

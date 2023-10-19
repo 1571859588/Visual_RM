@@ -1,0 +1,8 @@
+setup.py
+relative_interface/__init__.py
+relative_interface.egg-info/PKG-INFO
+relative_interface.egg-info/SOURCES.txt
+relative_interface.egg-info/dependency_links.txt
+relative_interface.egg-info/top_level.txt
+relative_interface/srv/__init__.py
+relative_interface/srv/_relate_coordinate.py

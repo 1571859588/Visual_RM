@@ -1,0 +1,17 @@
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/lib/transfer_coordinate/client
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/lib/transfer_coordinate/server
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/ament_index/resource_index/package_run_dependencies/transfer_coordinate
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/ament_index/resource_index/parent_prefix_path/transfer_coordinate
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/environment/ament_prefix_path.sh
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/environment/ament_prefix_path.dsv
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/environment/path.sh
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/environment/path.dsv
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/local_setup.bash
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/local_setup.sh
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/local_setup.zsh
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/local_setup.dsv
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/package.dsv
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/ament_index/resource_index/packages/transfer_coordinate
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/cmake/transfer_coordinateConfig.cmake
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/cmake/transfer_coordinateConfig-version.cmake
+/home/lenck/RM/base_tasks/work4/install/transfer_coordinate/share/transfer_coordinate/package.xml

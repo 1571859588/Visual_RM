@@ -1,0 +1,11 @@
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/uninstall.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/transfer_coordinate_uninstall.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/server.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/client.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/test.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/edit_cache.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/rebuild_cache.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/list_install_components.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/install.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/install/local.dir
+/home/lenck/RM/base_tasks/work4/build/transfer_coordinate/CMakeFiles/install/strip.dir
