@@ -1,0 +1,4 @@
+[console_scripts]
+find = scan_find_py.find:main
+test = scan_find_py.test:main
+

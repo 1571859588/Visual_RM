@@ -1,0 +1,17 @@
+/home/lenck/RM/base_tasks/work5/install/scan_find/lib/scan_find/image_subscriber
+/home/lenck/RM/base_tasks/work5/install/scan_find/lib/scan_find/image_publisher
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/ament_index/resource_index/package_run_dependencies/scan_find
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/ament_index/resource_index/parent_prefix_path/scan_find
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/environment/ament_prefix_path.sh
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/environment/ament_prefix_path.dsv
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/environment/path.sh
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/environment/path.dsv
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/local_setup.bash
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/local_setup.sh
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/local_setup.zsh
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/local_setup.dsv
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/package.dsv
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/ament_index/resource_index/packages/scan_find
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/cmake/scan_findConfig.cmake
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/cmake/scan_findConfig-version.cmake
+/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/package.xml
