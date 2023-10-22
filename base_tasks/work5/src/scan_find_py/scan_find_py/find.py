@@ -65,7 +65,7 @@ def main(args=None):                                      # ROS2节点主入口m
     node = Node("find")                            # 创建ROS2节点对象并进行初始化
     node.get_logger().info("ROS2节点示例：检测图片中的苹果")
 
-    image = cv2.imread('/home/lenck/RM/base_tasks/Image/apple.jpeg')  # 读取图像
+    image = cv2.imread('/home/lenck/RM/base_tasks/Image/apple.jpeg')  # 读取图像 苹果
     print("Image : ",image)
     object_detect(image)                                   # 苹果检测
     rclpy.spin(node)                                       # 循环等待ROS2退出

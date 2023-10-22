@@ -1,0 +1,17 @@
+/home/lenck/RM/exam_tasks/work1/install/show_images/lib/show_images/image_subscriber
+/home/lenck/RM/exam_tasks/work1/install/show_images/lib/show_images/armor_detection_node
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/ament_index/resource_index/package_run_dependencies/show_images
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/ament_index/resource_index/parent_prefix_path/show_images
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/environment/ament_prefix_path.sh
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/environment/ament_prefix_path.dsv
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/environment/path.sh
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/environment/path.dsv
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/local_setup.bash
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/local_setup.sh
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/local_setup.zsh
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/local_setup.dsv
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/package.dsv
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/ament_index/resource_index/packages/show_images
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/cmake/show_imagesConfig.cmake
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/cmake/show_imagesConfig-version.cmake
+/home/lenck/RM/exam_tasks/work1/install/show_images/share/show_images/package.xml

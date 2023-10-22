@@ -11,13 +11,23 @@ Every directory means work details.
 
 ---- 
  
-Work1 : Looking for the commit message of "luogu end!" to see the details.
+## base_tasks
 
-Work2 : The github pushed is the work2.
+### Work1 
 
-Work3 : Looking for the commit message of "work3 have done setup a SubAndPub moudle" to see the details.
+Looking for the commit message of "luogu end!" to see the details.
 
-Work4 : refer to [here](https://fishros.com/d2lros2/#/humble/chapt6/get_started/5.%E9%BD%90%E6%AC%A1%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2)  the 2D transfer format is as follow:
+### Work2 
+
+The github pushed is the work2.
+
+### Work3 
+
+Looking for the commit message of "work3 have done setup a SubAndPub moudle" to see the details.
+
+### Work4 
+
+Refer to [here](https://fishros.com/d2lros2/#/humble/chapt6/get_started/5.%E9%BD%90%E6%AC%A1%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2)  the 2D transfer format is as follow:
 ```
 double theta=request->offset_theta;// 两坐标系的相对偏移量 ，以逆时针方向为正
 double offset_x=request->offset_x; // 两坐标系的相对x坐标
@@ -28,10 +38,31 @@ response->x = x*std::cos(theta)-y*std::sin(theta)+offset_x;
 response->y = x*std::sin(theta)+y*std::cos(theta)+offset_y; 
 ```
 
-Work5 : refer to [HSV](https://zhuanlan.zhihu.com/p/306051120) to learn HSV.
+### Work5
+
+Refer to [HSV](https://zhuanlan.zhihu.com/p/306051120) to learn HSV.
 In order to learn HSV more deeply.
-I create a node named "test" to control the HVS_vlaue and see the image change directly.
+I create a node named "test" in scan_find_py/test.py to control the HVS_vlaue and see the image change directly.
 ![test_result](/base_tasks//Image/test_result.png)
+
+## exam_tasks
+
+### Work1 
+
+I take a close look in the metadata.yaml and see the topic format is image. And I create a topic_subscription to the video.
+
+You can run the following code to show it:
+```
+ros2 run show_images image_subscrib
+```
+At RM/material/vision_task, create an terminal: 
+```
+ros2 bag play vision_task_0.db3
+```
+And the video will show on the screen. The picture I put in the RM/exam_tasks/Images.
+
+
+### Work2 
 
 # Moudles
 

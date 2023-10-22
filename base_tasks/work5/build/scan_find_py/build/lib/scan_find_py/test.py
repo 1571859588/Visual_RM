@@ -36,7 +36,9 @@ def main(args=None):                                      # ROS2节点主入口m
     rclpy.init(args=args)                                 # ROS2 Python接口初始化
     node = Node("test")                            # 创建ROS2节点对象并进行初始化
     node.get_logger().info("test:")
-    image = cv2.imread('/home/lenck/RM/base_tasks/Image/apple_process.jpg') # 根据路径读取一张图片，opencv读出来的是BGR模式
+    # image = cv2.imread('/home/lenck/RM/base_tasks/Image/apple_process.jpg') # 根据路径读取一张图片，opencv读出来的是BGR模式
+    image = cv2.imread('/home/lenck/RM/exam_tasks/Images/deck.png') # 根据路径读取一张图片，opencv读出来的是BGR模式
+
     cv2.namedWindow('BGR', cv2.WINDOW_NORMAL) 
     cv2.imshow("BGR", image) # 显示图片
     

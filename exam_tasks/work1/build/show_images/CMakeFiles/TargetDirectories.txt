@@ -1,0 +1,11 @@
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/uninstall.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/show_images_uninstall.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/image_subscriber.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/armor_detection_node.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/test.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/edit_cache.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/rebuild_cache.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/list_install_components.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/install.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/install/local.dir
+/home/lenck/RM/exam_tasks/work1/build/show_images/CMakeFiles/install/strip.dir

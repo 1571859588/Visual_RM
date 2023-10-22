@@ -1,0 +1,141 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f577abef850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f577abef850>>)
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.228s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/base_tasks/work5'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scan_find' with type 'ros.ament_cmake' and name 'scan_find'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find_py) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find_py) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find_py) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find_py) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_find_py) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scan_find_py' with type 'ros.ament_python' and name 'scan_find_py'
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'scan_find' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'scan_find' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/work5/build/scan_find', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/work5/install/scan_find', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/work5/src/scan_find', 'symlink_install': False, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'scan_find_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'scan_find_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/base_tasks/work5/build/scan_find_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/base_tasks/work5/install/scan_find_py', 'merge_install': False, 'path': '/home/lenck/RM/base_tasks/work5/src/scan_find_py', 'symlink_install': False, 'test_result_base': None}
+[0.316s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.325s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'scan_find'
+[0.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/base_tasks/work5/src/scan_find' with build type 'ament_cmake'
+[0.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/base_tasks/work5/src/scan_find'
+[0.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work5/build/scan_find': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/work5/install/scan_find_py:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work5/build/scan_find -- -j4 -l4
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work5/build/scan_find' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/work5/install/scan_find_py:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/base_tasks/work5/build/scan_find -- -j4 -l4
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work5/build/scan_find': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/work5/install/scan_find_py:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work5/build/scan_find
+[0.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_find)
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work5/build/scan_find' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lenck/RM/base_tasks/work5/install/scan_find_py:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/base_tasks/work5/build/scan_find
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find' for CMake module files
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find' for CMake config files
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_find', 'cmake_prefix_path')
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/hook/cmake_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/hook/cmake_prefix_path.sh'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/lib'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/bin'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/lib/pkgconfig/scan_find.pc'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/lib/python3.10/site-packages'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/bin'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/package.dsv'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/package.sh'
+[0.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work5/install/scan_find/share/colcon-core/packages/scan_find)
+[0.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_find)
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find' for CMake module files
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find' for CMake config files
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_find', 'cmake_prefix_path')
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/hook/cmake_prefix_path.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/hook/cmake_prefix_path.sh'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/lib'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/bin'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/lib/pkgconfig/scan_find.pc'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/lib/python3.10/site-packages'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find/bin'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/package.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work5/install/scan_find/share/scan_find/package.sh'
+[0.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work5/install/scan_find/share/colcon-core/packages/scan_find)
+[0.613s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'scan_find' finished with '0'
+[0.613s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'scan_find_py'
+[0.613s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lenck/RM/base_tasks/work5/src/scan_find_py' with build type 'ament_python'
+[0.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_find_py', 'ament_prefix_path')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work5/install/scan_find_py/share/scan_find_py/hook/ament_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work5/install/scan_find_py/share/scan_find_py/hook/ament_prefix_path.sh'
+[0.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.859s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lenck/RM/base_tasks/work5/src/scan_find_py'
+[0.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/base_tasks/work5/src/scan_find_py': PYTHONPATH=/home/lenck/RM/base_tasks/work5/build/scan_find_py/prefix_override:/home/lenck/RM/base_tasks/work5/install/scan_find_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/scan_find_py build --build-base /home/lenck/RM/base_tasks/work5/build/scan_find_py/build install --record /home/lenck/RM/base_tasks/work5/build/scan_find_py/install.log --single-version-externally-managed
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/base_tasks/work5/src/scan_find_py' returned '0': PYTHONPATH=/home/lenck/RM/base_tasks/work5/build/scan_find_py/prefix_override:/home/lenck/RM/base_tasks/work5/install/scan_find_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/scan_find_py build --build-base /home/lenck/RM/base_tasks/work5/build/scan_find_py/build install --record /home/lenck/RM/base_tasks/work5/build/scan_find_py/install.log --single-version-externally-managed
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find_py' for CMake module files
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find_py' for CMake config files
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find_py/lib'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find_py/bin'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find_py/lib/pkgconfig/scan_find_py.pc'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find_py/lib/python3.10/site-packages'
+[1.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_find_py', 'pythonpath')
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/base_tasks/work5/install/scan_find_py/share/scan_find_py/hook/pythonpath.dsv'
+[1.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/base_tasks/work5/install/scan_find_py/share/scan_find_py/hook/pythonpath.sh'
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/base_tasks/work5/install/scan_find_py/bin'
+[1.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_find_py)
+[1.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/base_tasks/work5/install/scan_find_py/share/scan_find_py/package.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/base_tasks/work5/install/scan_find_py/share/scan_find_py/package.sh'
+[1.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/base_tasks/work5/install/scan_find_py/share/colcon-core/packages/scan_find_py)
+[1.440s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'scan_find_py' finished with '0'
+[1.440s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[1.440s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[1.440s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.440s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/base_tasks/work5/install/local_setup.sh'
+[1.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/base_tasks/work5/install/_local_setup_util_sh.py'
+[1.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/base_tasks/work5/install/setup.sh'

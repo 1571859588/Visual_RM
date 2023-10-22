@@ -1,0 +1,4 @@
+source;share/show_images/hook/cmake_prefix_path.dsv
+source;share/show_images/hook/cmake_prefix_path.sh
+source;share/show_images/local_setup.dsv
+source;share/show_images/local_setup.sh
