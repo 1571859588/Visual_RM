@@ -15,7 +15,7 @@ upper_red = np.array([180, 255, 255])  # 红色的HSV阈值上限
 def object_detect(image):
     
     hsv_img = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)      # 图像从BGR颜色模型转换为HSV模型
-
+    
     mask_red = cv2.inRange(hsv_img, lower_red, upper_red) # 图像二值化
     # 第一个参数：hsv指的是原图
     # 第二个参数：lower_red指的是图像中低于这个lower_red的值，图像值变为0
