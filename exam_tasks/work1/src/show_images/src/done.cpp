@@ -30,7 +30,7 @@ public:
 public:
     float width;
     float length;
-    cv::Point2f center;
+    cv::Point2f center;//表示一个二维平面中的点，其中包括x和y坐标
     float angle;
     float area;
 };
