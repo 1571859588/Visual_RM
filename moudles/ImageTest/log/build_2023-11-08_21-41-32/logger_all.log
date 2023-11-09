@@ -1,0 +1,100 @@
+[0.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f61aeff7eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f61aeff7eb0>>)
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.211s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lenck/RM/moudles/ImageTest'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/AdujstContrastBright) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/AdujstContrastBright) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/AdujstContrastBright) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/AdujstContrastBright) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/AdujstContrastBright) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AdujstContrastBright' with type 'ros.ament_cmake' and name 'AdujstContrastBright'
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'AdujstContrastBright' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'AdujstContrastBright' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright', 'merge_install': False, 'path': '/home/lenck/RM/moudles/ImageTest/src/AdujstContrastBright', 'symlink_install': False, 'test_result_base': None}
+[0.294s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.303s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'AdujstContrastBright'
+[0.303s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lenck/RM/moudles/ImageTest/src/AdujstContrastBright' with build type 'ament_cmake'
+[0.303s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lenck/RM/moudles/ImageTest/src/AdujstContrastBright'
+[0.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright -- -j4 -l4
+[9.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright -- -j4 -l4
+[9.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright
+[9.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(AdujstContrastBright)
+[9.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lenck/RM/moudles/ImageTest/build/AdujstContrastBright
+[10.097s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright' for CMake module files
+[10.098s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright' for CMake config files
+[10.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('AdujstContrastBright', 'cmake_prefix_path')
+[10.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/hook/cmake_prefix_path.dsv'
+[10.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/hook/cmake_prefix_path.sh'
+[10.108s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib'
+[10.109s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/bin'
+[10.109s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib/pkgconfig/AdujstContrastBright.pc'
+[10.111s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib/python3.10/site-packages'
+[10.111s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/bin'
+[10.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/package.dsv'
+[10.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/package.sh'
+[10.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/colcon-core/packages/AdujstContrastBright)
+[10.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(AdujstContrastBright)
+[10.164s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright' for CMake module files
+[10.164s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright' for CMake config files
+[10.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('AdujstContrastBright', 'cmake_prefix_path')
+[10.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/hook/cmake_prefix_path.dsv'
+[10.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/hook/cmake_prefix_path.sh'
+[10.172s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib'
+[10.172s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/bin'
+[10.172s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib/pkgconfig/AdujstContrastBright.pc'
+[10.173s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib/python3.10/site-packages'
+[10.173s] Level 1:colcon.colcon_core.environment:checking '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/bin'
+[10.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/package.dsv'
+[10.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/package.sh'
+[10.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/colcon-core/packages/AdujstContrastBright)
+[10.182s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'AdujstContrastBright' finished with '0'
+[10.182s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[10.182s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[10.182s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.182s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lenck/RM/moudles/ImageTest/install/local_setup.sh'
+[10.192s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lenck/RM/moudles/ImageTest/install/_local_setup_util_sh.py'
+[10.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lenck/RM/moudles/ImageTest/install/setup.sh'

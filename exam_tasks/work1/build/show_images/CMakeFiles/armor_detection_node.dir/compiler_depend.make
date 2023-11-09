@@ -811,14 +811,148 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
   /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
   /usr/include/opencv4/opencv2/video.hpp \
   /usr/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/include/opencv4/opencv2/video/background_segm.hpp
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h \
+  /usr/include/c++/11/ciso646 \
+  /usr/include/c++/11/csetjmp \
+  /usr/include/setjmp.h \
+  /usr/include/c++/11/cstdarg \
+  /usr/include/c++/11/ccomplex \
+  /usr/include/c++/11/cfenv \
+  /usr/include/c++/11/fenv.h \
+  /usr/include/fenv.h \
+  /usr/include/x86_64-linux-gnu/bits/fenv.h \
+  /usr/include/c++/11/cinttypes \
+  /usr/include/inttypes.h \
+  /usr/include/c++/11/cstdalign \
+  /usr/include/c++/11/cstdbool \
+  /usr/include/c++/11/ctgmath \
+  /usr/include/c++/11/cuchar \
+  /usr/include/uchar.h \
+  /usr/include/c++/11/bitset \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/random \
+  /usr/include/c++/11/bits/random.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
+  /usr/include/c++/11/bits/random.tcc \
+  /usr/include/c++/11/regex \
+  /usr/include/c++/11/bits/regex_constants.h \
+  /usr/include/c++/11/bits/regex_error.h \
+  /usr/include/c++/11/bits/regex_automaton.h \
+  /usr/include/c++/11/bits/regex_automaton.tcc \
+  /usr/include/c++/11/bits/regex_scanner.h \
+  /usr/include/c++/11/bits/regex_scanner.tcc \
+  /usr/include/c++/11/bits/regex_compiler.h \
+  /usr/include/c++/11/bits/regex_compiler.tcc \
+  /usr/include/c++/11/bits/regex.h \
+  /usr/include/c++/11/bits/regex.tcc \
+  /usr/include/c++/11/bits/regex_executor.h \
+  /usr/include/c++/11/bits/regex_executor.tcc \
+  /usr/include/c++/11/scoped_allocator \
+  /usr/include/c++/11/any \
+  /usr/include/c++/11/charconv \
+  /usr/include/c++/11/filesystem \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/bits/fs_path.h \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/c++/11/memory_resource \
+  /usr/include/c++/11/bits/uses_allocator_args.h
 
+
+/usr/include/c++/11/bits/uses_allocator_args.h:
+
+/usr/include/c++/11/memory_resource:
+
+/usr/include/c++/11/bits/fs_ops.h:
+
+/usr/include/c++/11/bits/fs_path.h:
+
+/usr/include/c++/11/filesystem:
+
+/usr/include/c++/11/charconv:
+
+/usr/include/c++/11/any:
+
+/usr/include/c++/11/scoped_allocator:
+
+/usr/include/c++/11/bits/regex_executor.h:
+
+/usr/include/c++/11/bits/regex_compiler.tcc:
+
+/usr/include/c++/11/bits/regex_compiler.h:
+
+/usr/include/c++/11/bits/regex_scanner.h:
+
+/usr/include/c++/11/bits/regex_automaton.h:
+
+/usr/include/c++/11/bits/regex_constants.h:
+
+/usr/include/c++/11/random:
+
+/usr/include/c++/11/bits/forward_list.tcc:
+
+/usr/include/c++/11/bits/forward_list.h:
+
+/usr/include/c++/11/forward_list:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+/usr/include/c++/11/bits/slice_array.h:
+
+/usr/include/c++/11/valarray:
+
+/usr/include/c++/11/bits/stl_stack.h:
+
+/usr/include/c++/11/stack:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/usr/include/c++/11/fstream:
+
+/usr/include/c++/11/ctgmath:
+
+/usr/include/c++/11/cstdbool:
+
+/usr/include/inttypes.h:
+
+/usr/include/c++/11/cinttypes:
+
+/usr/include/c++/11/cfenv:
+
+/usr/include/c++/11/ciso646:
 
 /usr/include/opencv4/opencv2/video/background_segm.hpp:
 
 /usr/include/opencv4/opencv2/video/tracking.hpp:
 
 /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
+
+/usr/include/fenv.h:
 
 /usr/include/c++/11/bits/stl_queue.h:
 
@@ -862,6 +996,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /usr/include/opencv4/opencv2/flann/logger.h:
 
+/usr/include/c++/11/regex:
+
 /usr/include/opencv4/opencv2/flann/kdtree_single_index.h:
 
 /usr/include/opencv4/opencv2/flann/heap.h:
@@ -878,11 +1014,15 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
+/usr/include/c++/11/bits/indirect_array.h:
+
 /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
 /usr/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/include/opencv4/opencv2/dnn/dict.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
 /usr/include/opencv4/opencv2/dnn/version.hpp:
 
@@ -905,6 +1045,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/opencv4/opencv2/imgproc/segmentation.hpp:
 
 /usr/include/opencv4/opencv2/imgproc/imgproc.hpp:
+
+/usr/include/c++/11/bits/random.h:
 
 /usr/include/opencv4/opencv2/core/optim.hpp:
 
@@ -1008,6 +1150,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
+/usr/include/c++/11/bits/valarray_array.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
@@ -1042,6 +1186,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:
 
+/usr/include/c++/11/bits/fs_fwd.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
@@ -1066,6 +1212,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
+/usr/include/c++/11/bits/valarray_array.tcc:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
@@ -1075,6 +1223,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
+
+/usr/include/c++/11/bits/fs_dir.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
 
@@ -1108,6 +1258,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
+/usr/include/c++/11/bits/regex_executor.tcc:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
@@ -1135,6 +1287,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
 /usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/valarray_before.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
@@ -1204,6 +1358,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /usr/include/c++/11/string_view:
 
+/usr/include/c++/11/cstdarg:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
@@ -1237,6 +1393,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/c++/11/stdexcept:
 
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/11/cuchar:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
@@ -1299,6 +1457,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/c++/11/cstdio:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+/usr/include/c++/11/ccomplex:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -1406,6 +1566,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+/usr/include/c++/11/cstdalign:
+
 /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
@@ -1431,6 +1593,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
@@ -1477,6 +1641,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/fenv.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
@@ -1584,6 +1750,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /usr/include/features.h:
 
+/usr/include/c++/11/bits/random.tcc:
+
 /usr/include/opencv4/opencv2/core/cuda.inl.hpp:
 
 /usr/include/c++/11/bits/atomic_base.h:
@@ -1601,6 +1769,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/alloca.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
+
+/usr/include/c++/11/bits/regex_error.h:
 
 /usr/include/c++/11/atomic:
 
@@ -1693,6 +1863,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/include/c++/11/tuple:
+
+/usr/include/c++/11/bits/regex.h:
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
@@ -1804,6 +1976,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /usr/include/c++/11/cstring:
 
+/usr/include/setjmp.h:
+
 /usr/include/opencv4/opencv2/flann/flann_base.hpp:
 
 /usr/include/c++/11/bits/charconv.h:
@@ -1839,6 +2013,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/11/fenv.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
@@ -1932,6 +2108,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /usr/include/c++/11/map:
 
+/usr/include/uchar.h:
+
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
 
 /usr/include/c++/11/bits/stl_map.h:
@@ -1982,6 +2160,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
 
+/usr/include/c++/11/bits/regex_scanner.tcc:
+
 /usr/include/opencv4/opencv2/flann/ground_truth.h:
 
 /usr/include/c++/11/bits/stream_iterator.h:
@@ -1997,6 +2177,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
 /usr/include/c++/11/stdlib.h:
+
+/usr/include/c++/11/bits/mask_array.h:
 
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
@@ -2104,6 +2286,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
 
+/usr/include/c++/11/bitset:
+
 /opt/ros/humble/include/rcl/rcl/service.h:
 
 /opt/ros/humble/include/rcl/rcl/subscription.h:
@@ -2117,6 +2301,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /opt/ros/humble/include/rcl/rcl/time.h:
+
+/usr/include/c++/11/bits/regex_automaton.tcc:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
@@ -2140,6 +2326,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
 
+/usr/include/c++/11/csetjmp:
+
 /usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/bits/unordered_set.h:
@@ -2157,6 +2345,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
+
+/usr/include/c++/11/bits/regex.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
 
@@ -2359,6 +2549,8 @@ CMakeFiles/armor_detection_node.dir/src/done.cpp.o: /home/lenck/RM/exam_tasks/wo
 /opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 

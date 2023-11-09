@@ -1,0 +1,4 @@
+source;share/AdujstContrastBright/local_setup.bash
+source;share/AdujstContrastBright/local_setup.dsv
+source;share/AdujstContrastBright/local_setup.sh
+source;share/AdujstContrastBright/local_setup.zsh

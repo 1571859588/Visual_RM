@@ -1,0 +1,17 @@
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/ament_index/resource_index/package_run_dependencies/AdujstContrastBright
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/ament_index/resource_index/parent_prefix_path/AdujstContrastBright
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/environment/ament_prefix_path.sh
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/environment/ament_prefix_path.dsv
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/environment/path.sh
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/environment/path.dsv
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/local_setup.bash
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/local_setup.sh
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/local_setup.zsh
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/local_setup.dsv
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/package.dsv
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/ament_index/resource_index/packages/AdujstContrastBright
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/cmake/AdujstContrastBrightConfig.cmake
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/cmake/AdujstContrastBrightConfig-version.cmake
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/share/AdujstContrastBright/package.xml
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib/AdujstContrastBright/topic_publisher_node
+/home/lenck/RM/moudles/ImageTest/install/AdujstContrastBright/lib/AdujstContrastBright/topic_subscriber_node

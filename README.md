@@ -49,9 +49,10 @@ I create a node named "test" in scan_find_py/test.py to control the HVS_vlaue an
 
 ### Work1 
 
+#### show the image
 I take a close look in the metadata.yaml and see the topic format is image. And I create a topic_subscription to the video.
 
-You can run the following code to show it:
+You can run the following code to show it, and the code in src/show.cpp :
 ```
 ros2 run show_images image_subscrib
 ```
@@ -59,7 +60,10 @@ At RM/material/vision_task, create an terminal:
 ```
 ros2 bag play vision_task_0.db3
 ```
-And the video will show on the screen. The picture I put in the RM/exam_tasks/Images.
+And the video will show on the screen. The picture I put in the RM/exam_tasks/Images/deck.png.
+
+#### ArmorDetection
+
 
 
 ### Work2 

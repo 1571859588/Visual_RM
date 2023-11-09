@@ -1,0 +1,4 @@
+source;share/AdujstContrastBright/hook/cmake_prefix_path.dsv
+source;share/AdujstContrastBright/hook/cmake_prefix_path.sh
+source;share/AdujstContrastBright/local_setup.dsv
+source;share/AdujstContrastBright/local_setup.sh
